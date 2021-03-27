@@ -1,0 +1,466 @@
+
+/* 
+  ##Device = Desktops
+  ##Screen = 1281px to higher resolution desktops
+*/
+
+ @media (min-width: 1281px) {
+  
+    /* CSS */
+    
+  }
+  
+  /* 
+    ##Device = Laptops, Desktops
+    ##Screen = B/w 1025px to 1280px
+  */
+  
+  @media (min-width: 1025px) and (max-width: 1280px) {
+    
+    /* CSS */
+    /* Banner Section */
+    .subtitle{
+        width: 90% !important;
+    }
+    /* Feature Section  */
+    .feature-img img {
+        height: 600px !important;
+    }
+    .designed-section img{
+        height: 455px !important;
+    }
+    /* Service Section */
+    .i-text p{
+        width: 90% !important;
+    }
+    /* Unlimited Feature Section */
+    .unlimited-feature .main-title h1 {
+        width: 90% !important;
+    }
+    .unlimited-img img{
+        height: 455px !important;
+        margin-top: 164px !important;
+    }
+    .pricing-section .service-title h1 {
+        width: 80% !important;
+    }
+    /* Download Section */
+    .download-download ul {
+        width: 105% !important;
+    }
+  }
+  
+  /* 
+    ##Device = Tablets, Ipads (portrait)
+    ##Screen = B/w 768px to 1024px
+  */
+  
+  @media (min-width: 768px) and (max-width: 1024px) {
+    
+    /* CSS */
+    /* Banner Section */
+    .banner-title h1 {
+        font-size: 54px !important;
+    }
+    /* Feature Section */
+    .feature-img {
+        text-align: center !important;
+    }
+    .feature-img img {
+        height: 549px !important;
+        margin-bottom: 40px !important;
+    }
+    .feature-text {
+        text-align: center !important;
+    }
+    .feature-section .main-title h1 {
+        width: 100% !important;
+    }
+    .feature-section .main-title p {
+        margin: auto !important;
+    }
+    .feature-item p {
+        margin: auto !important;
+    }
+    /* Smart Title */
+    .smart-jackpot {
+        text-align: center !important;
+    }
+    .smart-title h1 {
+        margin-bottom: 30px !important;
+        margin: 20px auto !important;
+    }
+    .smart-title-text {
+        border-left: 0 !important;
+        border-top: 2px solid #999 !important;
+    }
+    .smart-jackpot p {
+        margin: auto !important;
+        margin-top: 20px !important;
+    }
+    /* Designed Section */
+    .designed-section {
+        text-align: center !important;
+    }
+    .designed-section img {
+        height: 458px !important;
+    }
+    .designed-section .main-title h1 {
+        width: 100% !important;
+    }
+    .main-title p {
+        margin: auto !important;
+    }
+    .service-title h1 {
+        width: 70% !important;
+    }
+    .designed-section .main-title p {
+        margin: 25px auto !important;
+    }
+    .unlimited-feature{
+        text-align: center !important;
+    }
+    .unlimited-feature .main-title {
+        margin: 30px auto !important;
+    }
+    .unlimited-feature .main-title h1{
+        margin: auto !important;
+    }
+    .unlimited-feature .i-text {
+        width: 70% !important;
+        margin: 20px auto !important;
+    }
+    .offset-2 {
+        margin-left: 0 !important;
+        margin-bottom: 30px !important;
+    }
+    .testimonial-section .main-title p {
+        margin: 0 !important;
+    }
+  }
+  
+  /* 
+    ##Device = Tablets, Ipads (landscape)
+    ##Screen = B/w 768px to 1024px
+  */
+  
+  @media (min-width: 768px) and (max-width: 1024px) and (orientation: landscape) {
+    
+    /* CSS */
+    /* Banner Section */
+    .subtitle {
+        width: 85% !important;
+    }
+    .banner-title h1 {
+        font-size: 50px !important;
+    }
+    /* Feature Section */
+    .feature-img img {
+        height: 600px !important;
+    }
+    /* Smart Jackpot Section */
+    .smart-jackpot p {
+        width: 100% !important;
+    }
+    /* Designed Section */
+    .designed-section img {
+        height: 450px !important;
+    }
+    .designed-section .main-title h1 {
+        width: 80% !important;
+    }
+    .designed-section .main-title {
+        margin-top: 60px !important;
+    }
+    /* Pricing Section */
+    .pricing-section .service-title h1 {
+        width: 80%;
+    }
+    /* Service Section */
+    .service-section .i-text{
+        width: 100% !important;
+    }
+    /* Unlimited Feature  */
+    .unlimited-feature .main-title h1 {
+        width: 80% !important;
+    }
+    .unlimited-img img {
+        height: 440px !important;
+    }
+    /* Download Section */
+    .download-section {
+        padding-bottom: 40px !important;
+    }
+    .download-download img {
+        width: 175px !important;
+    }
+    .download-banner img {
+        height: 285px !important;
+    }
+  }
+  
+  /* 
+    ##Device = Low Resolution Tablets, Mobiles (Landscape)
+    ##Screen = B/w 481px to 767px
+  */
+  
+  @media (min-width: 481px) and (max-width: 767px) {
+    
+    /* CSS */
+    /* Banner Section */
+    .banner-section {
+        height: 110vh !important;
+    }
+    .subtitle h6 {
+        padding: 7px 5px !important;
+        font-size: 16px !important;
+    }    
+    .banner-title h1 {
+        font-size: 40px !important;
+    }
+    .banner-title p {
+        font-size: 16px !important;
+    }
+    .common-btn {
+        font-size: 14px !important;
+    }
+    .btn-02 {
+        font-size: 14px !important;
+    }
+    /* Brand Section */
+    .brand-section {
+        padding: 40px 0 !important;
+    }
+    /* Featire Section */
+    .feature-section {
+        padding: 0px 0 50px 0 !important;
+    }
+    .feature-img img {
+        height: 460px !important;
+        margin-left: 60px !important;
+    } 
+    .feature-section {
+        text-align: center !important;
+    }
+    .main-title h1 {
+        width: 100% !important;
+    }
+    .main-title p {
+        width: 80% !important;
+        margin: auto !important;
+    }
+    .feature-item p {
+        width: 85% !important;
+        margin: auto !important;
+    }
+    /* Smart Title */
+    .smart-title h1 {
+        margin-bottom: 30px !important;
+    }
+    .smart-title-text {
+        border-left: 0 !important;
+        border-top: 2px solid #999 !important;
+    }
+    .smart-title p {
+        margin-left: 12px !important;
+    }
+    /* Designd Section */
+    .designed-section img {
+        height: 344px;
+    }
+    .main-title p {
+        margin: 29px 0 !important;
+    }
+    /* Unlimited  Feature */
+    .unlimited-feature .i-text {
+        width: 74% !important;
+    }
+    /* Pricing Section */
+    .pricing-section .offset-2 {
+        margin-left: 0 !important;
+    }
+    .table-selected .table-01 {
+        margin-bottom: 40px !important;
+    }
+    /* Accordion Section */
+    .accordion-section .service-title p {
+        width: 80% !important;
+    }
+    /* Download Section */
+    .download-banner img {
+        height: 316px;
+    }
+    
+  }
+
+  
+  /* 
+    ##Device = Most of the Smartphones Mobiles (Portrait)
+    ##Screen = B/w 320px to 479px
+  */
+  
+  @media (min-width: 320px) and (max-width: 480px) {
+    
+    /* CSS */
+    /* Header Section */
+    .nav-item a {
+        font-size: 14px !important;
+    }
+    .common-btn {
+        font-size: 14px !important;
+    }
+    /* Banner Section */
+    .banner-section{
+        height: 550px !important;
+    }
+    .banner-title h1{
+        font-size: 36px !important;
+    }
+    .banner-title p{
+        font-size: 16px !important;
+    }
+    .subtitle{
+        width: 85% !important;
+    }
+    .subtitle i{
+        height: 30px !important;
+        width: 30px !important;
+        line-height: 30px !important;
+        font-size: 20px !important;
+    }
+    .subtitle h6{
+        padding: 0 !important;
+        font-size: 14px !important;
+    }
+    /* Brand logo Section */
+    .brand-section {
+        padding: 40px 0 !important;
+    }
+    .brand-section img {
+        width: 93px !important;
+        height: 58px !important;
+        margin: auto !important;
+    }
+    .owl-theme .owl-dots .owl-dot span {
+        background: #D6D6D600 !important;
+        display: none !important;
+    }
+    .owl-theme .owl-dots .owl-dot.active span, .owl-theme .owl-dots .owl-dot:hover span {
+        background: #86979100 !important;
+        display: none !important;
+    }
+    /* Feature Section */
+    .feature-img img {
+        height: 430px !important;
+    }
+    .main-title {
+        padding: 40px 0 !important;
+    }
+    .main-title h1 {
+        font-size: 26px !important;
+        width: 100% !important;
+        text-align: center !important;
+    }
+    .main-title p {
+        font-size: 14px !important;
+        width: 85% !important;
+        text-align: center !important;
+        margin: auto !important;
+    }
+    .feature-items {
+        text-align: center !important;
+    }
+    .feature-item p {
+        font-size: 14px !important;
+        width: 75% !important;
+        margin: auto !important;
+    }
+    /* Smart jackpot Section */
+    .smart-jackpot {
+        text-align: center !important;
+    }
+    .smart-title h1 {
+        font-size: 25px !important;
+        width: 78% !important;
+        margin: auto !important;
+        padding: 30px 0 !important;
+    }
+    .smart-title-text {
+        border-left: none !important;
+        border-top: 2px solid #999 !important;
+    }
+    .smart-jackpot p {
+        margin: 0 auto 30px auto !important;
+        padding-top: 25px !important;
+    }
+    /* Designed Section */
+    .designed-section{
+        overflow: hidden !important;
+    }
+    .designed-section img {
+        height: 300px !important;
+    }
+    .designed-section .main-title {
+        margin-top: 0 !important; 
+        margin-left: 0 !important; 
+    }
+    .designed-section .common-btn {
+        margin-left: 30% !important;
+    }
+    /* Servicem Section */
+    .service-title h1 {
+        width: 100% !important;
+    }
+    /* Unlimited Feature */
+    .unlimited-feature .main-title {
+        width: 100% !important; 
+    }
+    .unlimited-feature .row {
+        text-align: center !important;
+    }
+    .unlimited-img img {
+        height: 370px !important;
+    }
+    .price-table-1 {
+        margin: 0 !important;
+    }
+    .table-selected .table-01 {
+        margin-bottom: 45px !important;
+    }
+    /* Testimonial Section */
+    .test-img {
+        height: 278px !important;
+    }
+    /* Accordion Section  */
+    .accordion-section .service-title p {
+        width: 100% !important;
+    }
+    /* Download Section */
+    .download-section img {
+        margin-bottom: 20px !important;
+        width: 157px !important;
+    }
+    .download-banner img {
+        width: 340px !important;
+        margin-top: 30px !important;
+    }
+    /* Fotter Section */
+    .fotter-list ul {
+        padding: 0 !important;
+    }
+    .fotter-list ul li a {
+        padding: 0 5px !important;
+        font-size: 12px !important;
+    }
+    .socail-list ul {
+        margin: 10px 0 !important;
+        padding: 0 !important;
+    }
+    .socail-list ul li i {
+        padding: 0 15px !important;
+        font-size: 30px !important;
+    }
+    .fotter-section p {
+        font-size: 10px !important;
+    }
+ }
